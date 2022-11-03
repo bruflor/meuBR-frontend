@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -50,6 +50,14 @@ function App() {
             <div className="bg-light px-1">Category 4</div>
           </Col>
         </Row>
+      </div>
+      <div className=" d-flex flex-row-reverse my-1">
+        <Button
+          size="sm"
+          className="bg-secondary bg-opacity-25 border-0 text-secondary"
+        >
+          Todas as categorias
+        </Button>
       </div>
       <Row className="border-2 border-bottom border-secondary m-2 mt-5 text-left text-secondary">
         <h2 className="">News</h2>
